@@ -25,6 +25,7 @@ header.top{position:sticky;top:0;z-index:10;padding:14px 0}
 .eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);margin:0 0 14px}
 h1{font-size:clamp(40px,6vw,64px);line-height:1.04;letter-spacing:-.03em;margin:0 0 20px;font-weight:800}
 h1 em{font-style:normal;background:linear-gradient(transparent 62%,rgba(255,201,60,.55) 62%)}
+.dj{display:inline-block;margin:-6px 0 16px;padding:6px 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;font-size:16px}
 .lead{font-size:19px;color:var(--muted);max-width:30em;margin:0 0 28px}
 .cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;text-decoration:none;font-size:16px;border:0}
