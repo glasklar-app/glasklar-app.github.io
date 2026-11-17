@@ -26,7 +26,10 @@ header.top{position:sticky;top:0;z-index:10;padding:14px 0}
 h1{font-size:clamp(40px,6vw,64px);line-height:1.04;letter-spacing:-.03em;margin:0 0 20px;font-weight:800}
 h1 em{font-style:normal;background:linear-gradient(transparent 62%,rgba(255,201,60,.55) 62%)}
 .dj{display:inline-block;margin:-6px 0 16px;padding:6px 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;font-size:16px}
-.lead{font-size:19px;color:var(--muted);max-width:30em;margin:0 0 28px}
+.lead{font-size:19px;color:var(--muted);max-width:30em;margin:0 0 24px}
+.usp{list-style:none;padding:0;margin:0 0 28px;display:grid;gap:12px}
+.usp li{display:flex;align-items:center;gap:12px;font-size:20px;font-weight:700;letter-spacing:-.01em}
+.usp svg{flex:0 0 32px;width:32px;height:32px;padding:6px;border-radius:50%;background:var(--mint-deep);color:#fff;box-shadow:0 4px 12px rgba(31,107,76,.18)}
 .cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;text-decoration:none;font-size:16px;border:0}
 .btn svg{width:22px;height:22px}
@@ -92,6 +95,7 @@ footer a{margin-left:16px}
   .doc{padding:26px 22px}
 }
 @media (max-width:520px){
+  .usp li{font-size:17px}
   .nav{padding:8px 8px 8px 12px}
   .nav nav{flex-wrap:nowrap;gap:2px}
   .nav nav a{padding:7px 10px;font-size:14px}
