@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://glasklar-app.github.io/sitemap.xml
